@@ -8,13 +8,7 @@ footer{
     margin: 0;
     z-index: 100;
     color: #e8e8e8;
-    position: relative;
-}
-
-@media (min-width: 769px) {
-    footer {
-        position: sticky;
-        top: 90dvh;
-        z-index: 1000;
-    }
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

@@ -272,16 +272,15 @@
     }
 
     .projects-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        padding: 0 1em;
-        max-width: 70vw;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        max-width: 800px;
         margin: 0 auto;
+        place-items: center;
     }
     
     .project-item {
-        width: 30%;
         margin: 0;
     }
 
@@ -291,5 +290,10 @@
 
     .project-item p{
         font-size: 0.9rem;
+    }
+
+    .tech-badge {
+        font-size: 1rem;
+        padding: 0.3em;
     }
 }
