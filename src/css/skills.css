@@ -1,0 +1,208 @@
+/* ============================= */
+/* Skills Section Styling */
+/* ============================= */
+
+#skills {
+    background-color: #b799ff;
+}
+
+/* Swipe indicator for mobile/tablet */
+.swipe-element::before {
+    content: '← Swipe →';
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+/* ============================= */
+/* Swiper */
+/* ============================= */
+
+.skills-swiper {
+    width: 90%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.swiper-wrapper{
+    align-items: stretch;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: auto;
+}
+
+/* Custom pagination dots */
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #a2faa3;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 15px;
+}
+/* ============================= */
+/* Slide Content */
+/* ============================= */
+.slide-content {
+    text-align: center;
+    color: #e8e8e8;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background: #050743;
+    backdrop-filter: blur(10px);
+    padding: 3em 2em;
+    position: relative;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.slide-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.slide-content p {
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* ============================= */
+/* Skill Items */
+/* ============================= */
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.skill-item {
+    background: #a2faa3;
+    color: #050743;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    min-width: 120px;
+}
+
+.skill-item i {
+    font-size: 2em;
+    color: #050743;
+}
+
+.skill-item span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9em;
+}
+
+/* ============================= */
+/* Responsive Tablet */
+/* ============================= */
+@media (min-width:769px) and (max-width: 999px) {
+    #skills {
+    background-color: #050743ff;
+    }
+
+    .slide-content {
+        background: #b799ff;
+    }
+
+    .slide-content h3 {
+        font-size: 1.8em;
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .slide-content p {
+        width: 50%;
+        padding: 2em;
+    }
+
+    .skill-items {
+        width: 50%;
+    }
+}
+
+/* ============================= */
+/* Responsive 1000px + */
+/* ============================= */
+@media (min-width: 1000px) {
+    #skills {
+        background-color: #b799ff;
+    }
+
+    .swipe-element::before {
+        display: none;
+    }
+
+    .slide-content {
+        min-width: auto;
+        width: 100%;
+        padding: 2em;
+        background: #050743;
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    .slide-content h3 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .slide-content p {
+        font-size: 0.8rem;
+        width: 60%;
+        margin-bottom: 1.5em;
+    }
+
+    .skill-items {
+        width: 80%;
+    }
+
+    .skill-item i {
+        font-size: 1.5rem;
+    }
+
+    .skill-item span {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,24 @@
+#bike {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    transition: transform 0.05s linear;
+    transform: rotate(90deg) scaleY(-1);
+    z-index: 10;
+}
+
+#bike-track{
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 5px;
+    background-color: #a2faa3;
+    transition: height 0.05s linear;
+    z-index: 10;
+}
+
+#bike-icon {
+    font-size: 2rem;
+    color: #a2faa3;
+    transition: transform 0.05s linear;
+}

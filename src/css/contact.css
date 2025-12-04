@@ -1,0 +1,111 @@
+#contact{
+    background-color: #e26060;
+}
+
+/* Contact Form Styling */
+.contact-container {
+    max-width: 100%;
+    padding: 0 2em;
+}
+
+.contact-form {
+    background: linear-gradient(135deg, rgba(183, 153, 255, 0.1), rgba(162, 250, 163, 0.1));
+    backdrop-filter: blur(10px);
+    padding: 2.5em;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#contact p{
+    text-align: center;
+    padding: 0;
+}
+
+#contact h2{
+    margin-bottom: 0;
+}
+
+
+
+/* Contact Section */
+.contact-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+/* Social Links Styling */
+.social-links {
+    padding: 2em 1em;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.social-links h3 {
+    color: #f1f1f1;
+    margin-bottom: 1.5em;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #e8e8e8;
+    color: #e26060;
+    border: 2px solid #e8e8e8;
+    box-shadow: 0 4px 15px rgba(226, 96, 96, 0.5);
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #e26060, #c54545);
+    color: #e8e8e8;
+    box-shadow: 0 8px 25px rgba(226, 96, 96, 0.5);
+}
+
+.social-icon i {
+    font-size: 1.5em;
+    width: 30px;
+}
+
+.social-icon span {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media(min-width: 769px){
+    #contact .section-header{
+        padding-top: 10dvh;
+    }
+
+    .contact-container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 2em 1em;
+        justify-items: center;
+    }
+}
