@@ -205,6 +205,18 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.joshuaenlyke{
+    background-image: url(../assets/joshuaenlyke.png);
+}
+
+.codepen{
+    background-image: url(../assets/codepen.png);
+}
+
+.rideready{
+    background-image: url(../assets/rideready.png);
+}
+
 .project-item::after {
     content: '';
     position: absolute;

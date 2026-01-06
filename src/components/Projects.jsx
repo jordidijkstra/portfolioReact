@@ -13,7 +13,6 @@ export default function Projects(){
                 key={index} 
                 className={`${project.className} project-item`} 
                 data-url={project.url} 
-                style={{'--bg-image': `url(${project.backgroundUrl})`}}
             >
                     <h3>{project.title}</h3>
                     <p>{project.description}</p>
