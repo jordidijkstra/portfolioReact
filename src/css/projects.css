@@ -206,15 +206,15 @@
 }
 
 .joshuaenlyke{
-    background-image: url(../assets/joshuaenlyke.png);
+    background: url(../assets/joshuaenlyke.png) no-repeat center center / cover;
 }
 
 .codepen{
-    background-image: url(../assets/codepen.png);
+    background: url(../assets/cssLoadingAnimations.png) no-repeat center center / cover;
 }
 
 .rideready{
-    background-image: url(../assets/rideready.png);
+    background: url(../assets/rideready.png) no-repeat center center / cover;
 }
 
 .project-item::after {
