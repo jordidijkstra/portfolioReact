@@ -18,7 +18,7 @@ export const projects = [
             techConfig.css,
             techConfig.js
         ],
-        backgroundUrl: "../assets/joshuaenlyke.png"
+        backgroundUrl: "/joshuaenlyke.png"
     },
     {
         className: "codepen",
@@ -29,7 +29,7 @@ export const projects = [
             techConfig.html,
             techConfig.css
         ],
-        backgroundUrl: "../assets/cssLoadingAnimations.png"
+        backgroundUrl: "/cssLoadingAnimations.png"
     },
     {
         className: "rideready",
@@ -42,6 +42,6 @@ export const projects = [
             techConfig.csharp,
             techConfig.aspnet
         ],
-        backgroundUrl: "../assets/RideReady.png"
+        backgroundUrl: "/RideReady.png"
     }
 ]
